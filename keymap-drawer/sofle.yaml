@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, '''', LCTRL, A, S, D, F, G, H, J, K, L, ;, ENTER,
-    LSHFT, Z, X, C, V, B, MUTE, PRINTSCREEN, N, M, ',', ., /, RSHFT, lower, LALT, LEFT GUI, LCTRL, SPACE, SPACE, raise, '{', '}', '|']
+  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '''', TAB, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, raise, A, S, D, F, G, H, J, K, L, ;, ENTER,
+    LSHFT, Z, X, C, V, B, MUTE, PRINTSCREEN, N, M, ',', ., /, RSHFT, lower, LALT, LEFT GUI, LCTRL, SPACE, SPACE, SPACE, '{', '}', '|']
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -58,13 +58,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR ALL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - BT CLR ALL
+  - ESCAPE
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -88,7 +88,7 @@ layers:
   - _
   - '='
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - LALT
   - LCTRL
   - LSHFT
@@ -120,7 +120,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -149,7 +149,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - RGB BRD
   - RGB BRI
   - ''
@@ -181,7 +181,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
