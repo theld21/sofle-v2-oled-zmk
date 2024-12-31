@@ -196,13 +196,15 @@ combos:
   k: '='
 - p: [20, 31]
   k: UP ARROW
-- p: [31, 32]
+- p: [32, 45]
   k: DOWN ARROW
-- p: [31, 33]
+- p: [33, 32]
   k: RIGHT
-- p: [31, 44]
+- p: [31, 32]
   k: LEFT ARROW
 - p: [54, 53]
   k: ENTER
-- p: [52, 53]
+- p: [52, 51]
   k: DELETE
+- p: [52, 53]
+  k: Ctl+ BACKSPACE
