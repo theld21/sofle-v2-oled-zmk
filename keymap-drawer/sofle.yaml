@@ -194,3 +194,15 @@ combos:
   k: _
 - p: [27, 41]
   k: '='
+- p: [20, 31]
+  k: UP ARROW
+- p: [31, 32]
+  k: DOWN ARROW
+- p: [31, 33]
+  k: RIGHT
+- p: [31, 44]
+  k: LEFT ARROW
+- p: [54, 53]
+  k: ENTER
+- p: [52, 53]
+  k: DELETE
