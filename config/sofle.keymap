@@ -84,6 +84,81 @@
             bindings = <&kp LC(BACKSPACE)>;
             key-positions = <52 53>;
         };
+
+        cham-tham {
+            bindings = <&kp LS(EXCLAMATION)>;
+            key-positions = <1 13>;
+        };
+
+        a-cong {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <2 14>;
+        };
+
+        dau-thang {
+            bindings = <&kp HASH>;
+            key-positions = <3 15>;
+        };
+
+        do-la {
+            bindings = <&kp DOLLAR>;
+            key-positions = <4 16>;
+        };
+
+        phan-tram {
+            bindings = <&kp PERCENT>;
+            key-positions = <5 17>;
+        };
+
+        dau-mu {
+            bindings = <&kp CARET>;
+            key-positions = <6 18>;
+        };
+
+        dau-va {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <7 19>;
+        };
+
+        dau-sao {
+            bindings = <&kp ASTERISK>;
+            key-positions = <8 20>;
+        };
+
+        ngoac-tron {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <9 21>;
+        };
+
+        ngoac-tron-2 {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <10 22>;
+        };
+
+        ngoac-vuong {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <32 21>;
+        };
+
+        ngoac-vuong-2 {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <32 22>;
+        };
+
+        ngoac-nhon {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <20 9>;
+        };
+
+        ngoac-nhon-2 {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <20 10>;
+        };
+
+        dau-hoac {
+            bindings = <&kp PIPE>;
+            key-positions = <22 23>;
+        };
     };
 
     keymap {
